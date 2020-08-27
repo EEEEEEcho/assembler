@@ -1,0 +1,76 @@
+.pagination {
+    -fx-page-information-visible: False;
+}
+/*全局字体样式以及颜色*/
+.root {
+    -fx-font-size: 18px;
+    -fx-background-color: #FFFFFF;
+}
+/*按钮样式*/
+.button {
+    /*文本对齐方式*/
+    -fx-text-alignment: center;
+    /*按钮背景色*/
+    -fx-background-color: #0078D7;
+    /*内边距*/
+    -fx-padding: 0 18px;
+    /*鼠标样式*/
+    -fx-cursor: pointer;
+    /*边框圆角*/
+    -fx-border-radius: 10px;
+    /*背景圆角*/
+    -fx-background-radius: 12px;
+    /*字体颜色*/
+    -fx-text-fill: #FFFFFF;
+}
+/*鼠标覆盖按钮效果*/
+.button:hover {
+    /*粗体*/
+    -fx-font-weight: bold;
+    /*透明度*/
+    -fx-opacity: 0.8;
+}
+/*单选按钮样式*/
+.radio-button .radio {
+    -fx-background-color: #ffffff;
+    -fx-border-color: rgb(230, 230, 230);
+    -fx-border-radius: 80;
+}
+
+/*单选按钮选中后背景色*/
+.radio-button:selected .radio {
+    -fx-background-color: #0078D7;
+}
+/*.radio-button:selected .cell{*/
+/*    -fx-background-color: #007897;*/
+/*}*/
+/*提交列表确认按钮*/
+#ConfirmButton,#ConButton{
+    /*合适高度*/
+    -fx-pref-height: 28px;
+}
+/*提交列表取消按钮*/
+#CancelButton{
+    /*合适高度*/
+    -fx-pref-height: 28px;
+}
+#SelectButton, #FastaButton,#DeleteButton{
+    -fx-pref-height: 38px;
+}
+#SetButton{
+    -fx-pref-height: 38px;
+}
+#FileChooseTable .table-row-cell{
+    -fx-cell-size: 59px;
+    -fx-alignment: center;
+}
+#MainTable .table-row-cell{
+    -fx-cell-size: 80px;
+    -fx-alignment: center;
+}
+/*#StatusColumn{*/
+/*    -fx-font-style: #0078D7;*/
+/*}*/
+#SelectAllBox .box{
+    -fx-padding: 1px;
+}
